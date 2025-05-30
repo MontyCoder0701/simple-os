@@ -6,7 +6,7 @@ This is a minimal operating system written from scratch. It includes:
 - A simple kernel in C (`kernel.c`)
 - A `Makefile` to build and run everything using QEMU
 
-## 🔧 Requirements
+## Requirements
 
 To build and run this OS, you need:
 
@@ -22,6 +22,8 @@ Install them on Ubuntu or WSL:
 sudo apt update
 sudo apt install build-essential nasm qemu make
 ```
+
+## How To Run
 
 After cloning or extracting the project, run:
 
