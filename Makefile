@@ -13,7 +13,7 @@ os-image: boot.o kernel.bin
 	cat boot.o kernel.bin > os-image.bin
 
 run: os-image
-	qemu-system-i386 -fda os-image.bin
+	qemu-system-i386 -drive file=os-image.bin,format=raw,if=floppy
 
 clean:
 	rm -f *.o *.bin
